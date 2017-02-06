@@ -633,7 +633,8 @@ h6 {
   margin: 0;
   width: 25%;
   height: 250px;
-  background-color: #fff; }
+  background-color: #fff;
+  outline: 1px solid currentcolor; }
   @media (max-width: 800px) {
     .slider__slide--line {
       width: 50%; } }
@@ -1810,6 +1811,11 @@ h6 {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
+
+.contacts__title {
+  -webkit-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%; }
 
 .contact {
   width: 50%;

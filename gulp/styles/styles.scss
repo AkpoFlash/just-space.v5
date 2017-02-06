@@ -530,6 +530,7 @@ hr{
   width: 25%;
   height: 250px;
   background-color: $white;
+  outline: 1px solid currentcolor;
   @media(max-width: 800px){
     width: 50%;
   }
@@ -1759,6 +1760,10 @@ hr{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+}
+
+.contacts__title{
+  flex-basis: 100%;
 }
 
 .contact{
