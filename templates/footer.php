@@ -15,7 +15,7 @@
       <td>
         <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
           <span itemprop="addressLocality">Россия, г. Тула</span>,
-          <span itemprop="streetAddress">пр. Ленина, д. 77, оф 404</span>
+          <span itemprop="streetAddress">пр. Ленина, д. 77, оф. 404</span>
         </span>
       </td>
     </tr>
@@ -64,6 +64,9 @@
 <script src="/js/functions.min.js" defer></script>
 <script src="/js/ajax.min.js" defer></script>
 <script src="/js/scripts.min.js" defer></script>
-<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter41958054 = new Ya.Metrika({ id:41958054, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/41958054" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+<?php
+  require_once($_SERVER["DOCUMENT_ROOT"]."/templates/metrika-yandex.php");
+  require_once($_SERVER["DOCUMENT_ROOT"]."/templates/metrika-google.php");
+?>
 </body>
 </html>
