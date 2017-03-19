@@ -30,7 +30,7 @@
           <div class="vacancy__description">
             <span>Мы предлагаем</span>
             <ul class="vacancy__list">
-              <li class="vacancy__list-element">- Уровень зарплаты от 20 тыс. руб.</li>
+              <li class="vacancy__list-element">- Заработная плата по результатам собеседования</li>
               <li class="vacancy__list-element">- Свободный график</li>
             </ul>
           </div>
@@ -41,7 +41,6 @@
               <li class="vacancy__list-element">- HTML/CSS/JavaScript</li>
               <li class="vacancy__list-element">- Less/Sass</li>
               <li class="vacancy__list-element">- Grunt/Gulp</li>
-              <li class="vacancy__list-element">- Angular/React</li>
             </ul>
           </div>
         </div>
@@ -50,7 +49,7 @@
           <div class="vacancy__description">
             <span>Мы предлагаем</span>
             <ul class="vacancy__list">
-              <li class="vacancy__list-element">- Уровень зарплаты от 20 тыс. руб.</li>
+              <li class="vacancy__list-element">- Заработная плата по результатам собеседования</li>
               <li class="vacancy__list-element">- Свободный график</li>
             </ul>
           </div>
@@ -67,7 +66,7 @@
           <div class="vacancy__description">
             <span>Мы предлагаем</span>
             <ul class="vacancy__list">
-              <li class="vacancy__list-element">- Уровень зарплаты от 20 тыс. руб.</li>
+              <li class="vacancy__list-element">- Заработная плата по результатам собеседования</li>
               <li class="vacancy__list-element">- Свободный график</li>
             </ul>
           </div>
