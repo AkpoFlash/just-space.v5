@@ -206,6 +206,21 @@ h6 {
 .big {
   font-size: 1.4em; }
 
+.image {
+  width: 100%; }
+
+.image--site {
+  width: 400px;
+  float: right;
+  padding: 0 0 25px 50px; }
+  @media (max-width: 750px) {
+    .image--site {
+      float: none;
+      width: 300px;
+      padding: 0 0 25px 0;
+      margin: 0 auto;
+      display: block; } }
+
 .button {
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
@@ -548,12 +563,24 @@ h6 {
   background-position: 50% 35%; }
 
 .header--doly-tula {
-  background-image: url("/img/clients/tcn/tcn_full.jpg");
+  background-image: url("/img/clients/doly-tula/doly-tula_full.jpg");
   background-position: 50% 50%; }
 
 .header--tulskayakvartirka {
   background-image: url("/img/clients/tulskayakvartirka/tulskayakvartirka_full.jpg");
   background-position: 50% 50%; }
+
+.header--volonter71 {
+  background-image: url("/img/clients/volonter71/volonter71_full.jpg");
+  background-position: 50% 50%; }
+
+.header--tsu {
+  background-image: url("/img/clients/tsu/tsu_full.jpg");
+  background-position: 50% 40%; }
+
+.header--tcn {
+  background-image: url("/img/clients/tcn/tcn_full.jpg");
+  background-position: 50% 40%; }
 
 .header--jqueryin2017 {
   background-image: url("/img/articles/jqueryin2017-M.jpg");
@@ -893,6 +920,14 @@ h6 {
 
 .about {
   line-height: 25px; }
+
+.about__subtitle {
+  font-size: 1.4em;
+  text-align: left;
+  text-transform: none;
+  font-weight: 300;
+  padding: 5px 0;
+  margin: 0; }
 
 .categories {
   width: 100%;
@@ -1423,7 +1458,7 @@ h6 {
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
   background-color: #e4e4e4;
-  background-size: 50%;
+  background-size: 50% auto;
   background-position: 50% 50%;
   background-repeat: no-repeat; }
   .client:hover {
@@ -1440,24 +1475,39 @@ h6 {
     background-image: url("/img/clients/sportlifting/sportlifting_logo_white.png"); }
 
 .client--3 {
-  background-image: url("/img/clients/tulskayakvartirka/tulskayakvartirka_logo_black.png"); }
+  background-image: url("/img/clients/volonter71/volonter71_logo_black.png"); }
   .client--3:hover {
-    background-image: url("/img/clients/tulskayakvartirka/tulskayakvartirka_logo_white.png"); }
+    background-image: url("/img/clients/volonter71/volonter71_logo_white.png"); }
 
 .client--4 {
-  background-image: url("/img/clients/gazel-traffic/gazel-traffic_logo_black.png"); }
+  background-image: url("/img/clients/tsu/tsu_logo_black.png"); }
   .client--4:hover {
-    background-image: url("/img/clients/gazel-traffic/gazel-traffic_logo_white.png"); }
+    background-image: url("/img/clients/tsu/tsu_logo_white.png"); }
 
 .client--5 {
-  background-image: url("/img/clients/tcn/tcn_logo_black.png"); }
+  background-image: url("/img/clients/gazel-traffic/gazel-traffic_logo_black.png"); }
   .client--5:hover {
-    background-image: url("/img/clients/tcn/tcn_logo_white.png"); }
+    background-image: url("/img/clients/gazel-traffic/gazel-traffic_logo_white.png"); }
 
 .client--6 {
-  background-image: url("/img/clients/justspaceshoot/justspaceshoot_logo_black.png"); }
+  background-image: url("/img/clients/tulskayakvartirka/tulskayakvartirka_logo_black.png"); }
   .client--6:hover {
+    background-image: url("/img/clients/tulskayakvartirka/tulskayakvartirka_logo_white.png"); }
+
+.client--7 {
+  background-image: url("/img/clients/tcn/tcn_logo_black.png"); }
+  .client--7:hover {
+    background-image: url("/img/clients/tcn/tcn_logo_white.png"); }
+
+.client--8 {
+  background-image: url("/img/clients/justspaceshoot/justspaceshoot_logo_black.png"); }
+  .client--8:hover {
     background-image: url("/img/clients/justspaceshoot/justspaceshoot_logo_white.png"); }
+
+.client--9 {
+  background-image: url("/img/clients/doly-tula/doly-tula_logo_black.png"); }
+  .client--9:hover {
+    background-image: url("/img/clients/doly-tula/doly-tula_logo_white.png"); }
 
 .client__logo {
   -o-object-fit: contain;
@@ -1699,6 +1749,8 @@ h6 {
      object-fit: contain; }
   .portfolio__logo:hover + .portfolio__mask {
     opacity: 1; }
+    .portfolio__logo:hover + .portfolio__mask .portfolio__categories {
+      opacity: 1; }
 
 .portfolio__mask {
   -webkit-transition: all 0.5s linear;
@@ -1731,11 +1783,34 @@ h6 {
 .portfolio__mask--6 {
   background-color: #f5a623; }
 
+.portfolio__mask--7 {
+  background-color: #7ed321; }
+
+.portfolio__mask--8 {
+  background-color: #cc6533; }
+
+.portfolio__mask--9 {
+  background-color: #23b2f5; }
+
 .portfolio__image {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover; }
+
+.portfolio__categories {
+  text-align: left;
+  background-color: transparent;
+  color: #fff;
+  position: absolute;
+  bottom: 5%;
+  opacity: 0; }
+
+.portfolio__category {
+  white-space: nowrap;
+  background-color: #4a4a4a;
+  padding: 5px 10px;
+  margin-bottom: 5px; }
 
 .article {
   width: 100%; }
