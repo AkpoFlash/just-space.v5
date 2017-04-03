@@ -104,6 +104,23 @@ hr{
   font-size: 1.4em;
 }
 
+.image{
+  width: 100%;
+}
+
+.image--site{
+  width: 400px;
+  float: right;
+  padding: 0 0 25px 50px;
+  @media(max-width: 750px){
+    float: none;
+    width: 300px;
+    padding: 0 0 25px 0;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
 .button{
   @include transition(.3s);
   width: 200px;
@@ -437,13 +454,28 @@ hr{
 }
 
 .header--doly-tula{
-  background-image: url('/img/clients/tcn/tcn_full.jpg');
+  background-image: url('/img/clients/doly-tula/doly-tula_full.jpg');
   background-position: 50% 50%;
 }
 
 .header--tulskayakvartirka{
   background-image: url('/img/clients/tulskayakvartirka/tulskayakvartirka_full.jpg');
   background-position: 50% 50%;
+}
+
+.header--volonter71{
+  background-image: url('/img/clients/volonter71/volonter71_full.jpg');
+  background-position: 50% 50%;
+}
+
+.header--tsu{
+  background-image: url('/img/clients/tsu/tsu_full.jpg');
+  background-position: 50% 40%;
+}
+
+.header--tcn{
+  background-image: url('/img/clients/tcn/tcn_full.jpg');
+  background-position: 50% 40%;
 }
 
 .header--jqueryin2017{
@@ -818,6 +850,15 @@ hr{
 
 .about{
  line-height: 25px;
+}
+
+.about__subtitle{
+  font-size: 1.4em;
+  text-align: left;
+  text-transform: none;
+  font-weight: 300;
+  padding: 5px 0;
+  margin: 0;
 }
 
 .about__text{
@@ -1324,7 +1365,7 @@ hr{
 .client{
   @include transition();
   background-color: $gray;
-  background-size: 50%;
+  background-size: 50% auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   &:hover{
@@ -1347,30 +1388,51 @@ hr{
 }
 
 .client--3{
-  background-image: url('/img/clients/tulskayakvartirka/tulskayakvartirka_logo_black.png');
+  background-image: url('/img/clients/volonter71/volonter71_logo_black.png');
   &:hover{
-    background-image: url('/img/clients/tulskayakvartirka/tulskayakvartirka_logo_white.png');
+    background-image: url('/img/clients/volonter71/volonter71_logo_white.png');
   }
 }
 
 .client--4{
+  background-image: url('/img/clients/tsu/tsu_logo_black.png');
+  &:hover{
+    background-image: url('/img/clients/tsu/tsu_logo_white.png');
+  }
+}
+
+.client--5{
   background-image: url('/img/clients/gazel-traffic/gazel-traffic_logo_black.png');
   &:hover{
     background-image: url('/img/clients/gazel-traffic/gazel-traffic_logo_white.png');
   }
 }
 
-.client--5{
+.client--6{
+  background-image: url('/img/clients/tulskayakvartirka/tulskayakvartirka_logo_black.png');
+  &:hover{
+    background-image: url('/img/clients/tulskayakvartirka/tulskayakvartirka_logo_white.png');
+  }
+}
+
+.client--7{
   background-image: url('/img/clients/tcn/tcn_logo_black.png');
   &:hover{
     background-image: url('/img/clients/tcn/tcn_logo_white.png');
   }
 }
 
-.client--6{
+.client--8{
   background-image: url('/img/clients/justspaceshoot/justspaceshoot_logo_black.png');
   &:hover{
     background-image: url('/img/clients/justspaceshoot/justspaceshoot_logo_white.png');
+  }
+}
+
+.client--9{
+  background-image: url('/img/clients/doly-tula/doly-tula_logo_black.png');
+  &:hover{
+    background-image: url('/img/clients/doly-tula/doly-tula_logo_white.png');
   }
 }
 
@@ -1600,6 +1662,9 @@ hr{
   object-fit: contain;
   &:hover + .portfolio__mask{
     opacity: 1;
+    .portfolio__categories{
+      opacity: 1;
+    }
   }
 }
 
@@ -1641,10 +1706,38 @@ hr{
   background-color: rgb(245,166,35);
 }
 
+.portfolio__mask--7{
+  background-color: rgb(126,211,33);
+}
+
+.portfolio__mask--8{
+  background-color: rgb(204,101,51);
+}
+
+.portfolio__mask--9{
+  background-color: rgb(35,178,245);
+}
+
 .portfolio__image{
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.portfolio__categories{
+  text-align: left;
+  background-color: transparent;
+  color: $white;
+  position: absolute;
+  bottom: 5%;
+  opacity: 0;
+}
+
+.portfolio__category{
+  white-space: nowrap;
+  background-color: $thirdColor;
+  padding: 5px 10px;
+  margin-bottom: 5px;
 }
 
 

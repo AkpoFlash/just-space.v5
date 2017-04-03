@@ -55,9 +55,9 @@
 
         // /
         case "/index.php":
-          return "Just Space - Создание и SEO продвижение сайтов в Туле" . $this::TITLE_END;
+          return "Just Space - Создание и продвижение сайтов в Туле" . $this::TITLE_END;
         case "/services.php":
-          return "Услуги - Создание сайтов, разработка приложений и SEO продвижение в Туле" . $this::TITLE_END;
+          return "Услуги - Создание сайтов, разработка приложений и SEO продвижение" . $this::TITLE_END;
         case "/portfolio.php":
           return "Портфолио - Наши кейсы в создание и продвижении сайтов" . $this::TITLE_END;
         case "/blog.php":
@@ -91,7 +91,7 @@
         case "/portfolio/doly-tula.php":
           return "Создание сайта визитки под ключ" . $this::TITLE_END;
         case "/portfolio/justspaceshoot.php":
-          return "Создание 8-ми битной мобильной игры" . $this::TITLE_END;
+          return "Создание казуальной мобильной игры под iOS" . $this::TITLE_END;
         case "/portfolio/tulskayakvartirka.php":
           return "Создание типового корпоративного сайта" . $this::TITLE_END;
 

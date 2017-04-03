@@ -74,7 +74,7 @@
 ?>
   <main class="main">
     <article class="about">
-      <h1>Создание и SEO продвижение сайтов в Туле</h1>
+      <h1>Создание и продвижение сайтов в Туле</h1>
       <div class="about__text">
           Наше агентство специализируется на создание сайтов, дальнейшей технической поддержкой и SEO продвижением уже разработанных сайтов. Создаем сайты под ключ используя большинство современных CMS - 1С-Битрикс, ModX, WordPress. Являемся сертифицированными разработчиками продуктов на основе 1С-Битрикс. Настраиваем контекстную рекламу в Яндекс.Директ и Google AdWords. Обладаем сертификатами Яндекса подтверждающими нашу компетенцию в работе с Директом и Метрикой. Также разрабатываем связанные с сайтом нативные мобильные приложения под iOS и Android.
       </div>
@@ -121,19 +121,19 @@
             <svg class="page-image__icon page-image__icon--top page-image__icon--mask-1" aria-hidden="true">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/sprites/sprites-services.svg#mobile"></use>
             </svg>
-            Топ-3 по разработке приложений
+            Топ-3 среди мобильных разработчиков
           </a>
           <a href="http://www.cmsmagazine.ru/creators/tula/" class="page-image__title page-image__title--top page-image__title--mask-2 no-underline" target="_blank">
             <svg class="page-image__icon page-image__icon--top page-image__icon--mask-2" aria-hidden="true">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/sprites/sprites-services.svg#web"></use>
             </svg>
-            Топ-30 по созданию сайтов
+            Топ-25 среди веб-студий
           </a>
           <a href="http://www.cmsmagazine.ru/seo/tula/" class="page-image__title page-image__title--top page-image__title--mask-3 no-underline" target="_blank">
             <svg class="page-image__icon page-image__icon--top page-image__icon--mask-3" aria-hidden="true">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/sprites/sprites-services.svg#seo"></use>
             </svg>
-            Топ-15 по SEO продвижению сайтов
+            Топ-15 среди SEO-компаний
           </a>
         </div>
       </div>
@@ -144,7 +144,7 @@
     <article class="certificates">
       <div class="certificates__text">
         <h2>Создание сайтов на 1С-Битрикс</h2>
-        Just Space - официальный партнер компании 1С-Битрикс, которая занимает первое место на российском рынке среди коммерческих CMS. Специализируемся на создание интернет-магазинов и технической поддержкой высоко нагруженных систем. Наши программисты являются сертифицированными специалистами по созданию сайтов на основе 1С-Битрикс и имеют соответствующие сертификаты.
+        Just Space - официальный партнер компании 1С-Битрикс, которая занимает первое место на российском рынке среди коммерческих CMS. Специализируемся на создание интернет-магазинов и технической поддержкой высоко нагруженных систем. Наши программисты являются сертифицированными специалистами по разработке сайтов на основе 1С-Битрикс и имеют соответствующие сертификаты.
       </div>
       <div class="certificates__content">
         <img src="/img/cert/BXS-CM.png" class="certificates__cert" alt="Сертификат 1С Битрикс - Контент-менеджер">
@@ -162,7 +162,7 @@
         <article class="page-image__promo">
           <h3 class="big">Блог <span class="fill-color--first">Just Space</span></h3>
           <div class="page-image__text">
-            На страницах нашего блога мы выкладываем интересные на наш взгляд кейсы, стараясь рассказать о том, как создать сайт и разработать мобильное приложение. Раскрываем методики и секреты применяемые в SEO продвижение сайтов.
+            На страницах нашего блога мы выкладываем интересные на наш взгляд кейсы, стараясь рассказать о том, как мы создаем и продвигаем сайты наших клиентов, а также разрабатываем мобильные приложения. Раскрываем методики и секреты применяемые в продвижение сайтов.
           </div>
           <div class="page-image__text">
             В наших планы входит, регулярно описывать корпоративные успехи и неудачи, рассказывать о предпринимаемых экспериментах и всецело делиться опытом с нашими читателями.
@@ -183,7 +183,7 @@
         ?>
       </div>
       <div class="page__text">
-        <h2>Для чего стоит заказать создание и SEO продвижение сайтов в Туле</h2>
+        <h2>Сайт для вашего бизнеса</h2>
         Создание сайта обеспечивает охват широкой аудитории интернет пользователей, это позволяет привлечь новых клиентов, которые раньше не могли узнать о ваших услугах в других источниках. При правильном проведении SEO продвижения сайта вы получите дополнительный источник постоянных клиентов. Также если вы хотите улучшить репутацию своей организации, то собственный сайт - удобная стартовая площадка для этого, а в совокупности с проведением SMM кампании в социальных сетях (Facebook, Instagram, Вконтакте) вы достигните значительных изменений в короткий срок.
       </div>
     </article>
@@ -194,13 +194,19 @@
         </a><!--
         --><a href="/portfolio/sportlifting.php" class="client client--2 slider__slide slider__slide--line">
         </a><!--
-        --><a href="/portfolio/tulskayakvartirka.php" class="client client--3 slider__slide slider__slide--line">
+        --><a href="/portfolio/volonter71.php" class="client client--3 slider__slide slider__slide--line">
         </a><!--
-        --><a href="/portfolio/gazeltraffic.php" class="client client--4 slider__slide slider__slide--line">
+        --><a href="/portfolio/tsu.php" class="client client--4 slider__slide slider__slide--line">
         </a><!--
-        --><a href="/portfolio/doly-tula.php" class="client client--5 slider__slide slider__slide--line">
+        --><a href="/portfolio/gazeltraffic.php" class="client client--5 slider__slide slider__slide--line">
         </a><!--
-        --><a href="/portfolio/justspaceshoot.php" class="client client--6 slider__slide slider__slide--line">
+        --><a href="/portfolio/tulskayakvartirka.php" class="client client--6 slider__slide slider__slide--line">
+        </a><!--
+        --><a href="/portfolio/tcn.php" class="client client--7 slider__slide slider__slide--line">
+        </a><!--
+        --><a href="/portfolio/justspaceshoot.php" class="client client--8 slider__slide slider__slide--line">
+        </a><!--
+        --><a href="/portfolio/doly-tula.php" class="client client--9 slider__slide slider__slide--line">
         </a><!--
       --></div>
       <div class="arrow__wrapper arrow__wrapper--left">
