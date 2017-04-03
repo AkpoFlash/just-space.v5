@@ -24,7 +24,7 @@
 
         if(!$this->GetEmail($email)->Fetch() && filter_var($email, FILTER_VALIDATE_EMAIL)){
           if($this->CheckEmailExecute($email)){
-            $query = $this->pdo->prepare('INSERT INTO ls_emails (email, site, available, departure_date, count_of_send) VALUES (:email, :site, :available, :departure_date, :count_of_send);');
+            $query = $this->pdo->prepare('INSERT INTO moscowmap (email, site, available, departure_date, count_of_send) VALUES (:email, :site, :available, :departure_date, :count_of_send);');
             $query->execute(array('email' => $email, 'site' => $site, 'available' => $available, 'departure_date' => $departure_date, 'count_of_send' => $count_of_send));
             return $query;
           }
@@ -40,7 +40,7 @@
       }
 
       public function GetEmail($email){
-        $query = $this->pdo->prepare('SELECT * FROM ls_emails WHERE email = :email;');
+        $query = $this->pdo->prepare('SELECT * FROM moscowmap WHERE email = :email;');
         $query->execute(array('email' => $email));
         return $query;
       }
@@ -115,7 +115,7 @@
       }
 
       public function DeleteEmail($email){
-        $query = $this->pdo->prepare('DELETE FROM ls_emails WHERE email = :email;');
+        $query = $this->pdo->prepare('DELETE FROM moscowmap WHERE email = :email;');
         $query->execute(array('email' => $email));
         return $query;
       }
@@ -162,14 +162,14 @@
         else{
             $select = "*";
         }
-        $query = $this->pdo->prepare("SELECT{$select}FROM ls_emails{$filter}{$order};");
+        $query = $this->pdo->prepare("SELECT{$select}FROM moscowmap{$filter}{$order};");
         $query->execute();
         return $query;
       }
 
       public function UpdateEmailSend($email, $departure_date, $count_of_send = 0){
         if(!$this->AddEmail($email, null, 1, $departure_date, $count_of_send)){
-          $query = $this->pdo->prepare('UPDATE ls_emails SET departure_date=:departure_date, count_of_send=:count_of_send WHERE email=:email;');
+          $query = $this->pdo->prepare('UPDATE moscowmap SET departure_date=:departure_date, count_of_send=:count_of_send WHERE email=:email;');
           $query->execute(array('email' => $email, 'departure_date' => $departure_date, 'count_of_send' => $count_of_send));
           return $query;
         }
@@ -177,7 +177,7 @@
 
       public function UpdateEmailAvailable($email, $available){
         if(!$this->AddEmail($email, null, $available)){
-          $query = $this->pdo->prepare('UPDATE ls_emails SET available=:available WHERE email=:email;');
+          $query = $this->pdo->prepare('UPDATE moscowmap SET available=:available WHERE email=:email;');
           $query->execute(array('email' => $email, 'available' => $available));
           return $query;
         }
