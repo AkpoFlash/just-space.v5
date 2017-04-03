@@ -32,28 +32,26 @@
   $PHPMailer->CharSet = "UTF-8";
   //информация от кого отправлено письмо
   $PHPMailer->From = "info@just-space.ru";
-  $PHPMailer->FromName = "Just Space";
+  $PHPMailer->FromName = "Sportlifting";
 
   $PHPMailer->isHTML(true);
 
-  $emailer_file = "/home/users/g/gazeltrafic/domains/just-space.ru/emails/seo.html";
+  $emailer_file = "/home/users/g/gazeltrafic/domains/just-space.ru/emails/email_regupol.html";
 
   // Определяем переменные
-	$PHPMailer->Subject = "Продвижение сайта | Digital-агентство Just Space";
+	$PHPMailer->Subject = "Напольное покрытие от производителя!";
 
-  $count = 0;
-  while($arRes = $dbRes->Fetch() && $count <= 500){
+  while($arRes = $dbRes->Fetch()){
     $emails[] = $arRes["email"];
-    $count++;
   }
 
-  $emails[499] = "akpoflash@gmail.com";
+  $emails[299] = "akpoflash@gmail.com";
 
   $template_emailer_text = file_get_contents($emailer_file);
 
 	$count_emails = count($emails);
   // Запускаем цикл отправки сообщений
-  for ($i = 0; $i <= $count_emails - 1 && $i < 500; $i++)
+  for ($i = 0; $i <= $count_emails - 1 && $i < 30; $i++)
   {
     $email_to = trim($emails[$i]);
     $PHPMailer->ClearAllRecipients();
