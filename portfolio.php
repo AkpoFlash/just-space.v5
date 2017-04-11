@@ -105,7 +105,6 @@
               <span class="portfolio__category">Разработка под ключ</span>
               <span class="portfolio__category">Тех. поддержка</span>
               <span class="portfolio__category">Продвижение</span>
-              <span class="portfolio__category">Контекстная реклама</span>
             </div>
           </div>
           <img src="/img/clients/doly-tula/doly-tula_clip.jpg" class="portfolio__image" alt="Сайт - Тульский Центр Недвижимости">

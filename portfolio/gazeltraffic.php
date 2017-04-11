@@ -31,6 +31,7 @@
         <h2 class="about__subtitle">Результат:</h2>
         <img src="/img/clients/gazel-traffic/gazel-traffic_site.jpg" class="image image--site" alt="Внешний вид лендинга - Gazel Traffic">
         Разработали под ключ отзывчивый и адаптивный лендинг. Выполнили оптимизацию контента и кода уменьшая тем самым время загрузки в 2 раза, получив 100/100 баллов на Google PageSpeed Insights. Провели первичное SEO продвижение по необходимым ключевым словам.
+        Итоговый внешний вид сайта представлен на приведенном изображении.
       </section>
       <section class="about__text">
         <h2 class="about__subtitle">Перечень работ:</h2>
