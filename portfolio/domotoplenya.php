@@ -28,6 +28,8 @@
       </section>
       <section class="about__text">
         <h2 class="about__subtitle">Результат:</h2>
+        Результаты из Яндекс.Директ за отчетный период, представлены ниже.
+        <br>
         <picture>
           <source srcset="/img/clients/cis/cis_metrik_mobile.jpg" media="(max-width: 1000px)">
           <img class="image" src="/img/clients/cis/cis_metrik.jpg" alt="Показатели Яндекс.Директ - Центр Инженерных систем">
