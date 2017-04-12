@@ -5,4 +5,5 @@
     <li><a href="/admin/admin_panel/backup.php">Резервное копирование</a></li>
     <li><a href="/admin/admin_panel/blog.php">Блог</a></li>
     <li><a href="/admin/admin_panel/setting.php">Настройка</a></li>
+    <li><a href="/admin/admin_panel/phpinfo.php">Информация</a></li>
 </nav>
