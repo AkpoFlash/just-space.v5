@@ -11,7 +11,7 @@
         <span class="hamburger__line"></span>
         <span class="hamburger__line"></span>
       </a>
-      <a href="/index.php" class="navigation__logo">Just Space</a>
+      <a href="/index.php" class="logo">Just <span class="logo__border">Space</span></a>
       <span class="navigation__section">Портфолио</span>
     </nav>
   </header>
@@ -28,6 +28,16 @@
         На этой странице вы можете ознакомиться с подробным описанием реальных кейсов встречаемых в нашей практике при создании сайтов и приложений для наших клиентов.
       </article>
       <section class="portfolio__line">
+        <a href="/portfolio/tusman.php" class="portfolio__project">
+          <img src="/img/clients/tusman/tusman_logo_white.png" class="portfolio__logo" alt="Логотип - SportLifting">
+          <div class="portfolio__mask portfolio__mask--6">
+            <div class="portfolio__categories">
+              <span class="portfolio__category">Реклама</span>
+              <span class="portfolio__category">Дизайн</span>
+            </div>
+          </div>
+          <img src="/img/clients/tusman/tusman_clip.jpg" class="portfolio__image" alt="Сайт - SportLifting">
+        </a>
         <a href="/portfolio/tsu.php" class="portfolio__project">
           <img src="/img/clients/tsu/tsu_logo_white.png" class="portfolio__logo" alt="Логотип - Тульская квартирка">
           <div class="portfolio__mask portfolio__mask--1">

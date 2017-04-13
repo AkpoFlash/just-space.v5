@@ -10,7 +10,7 @@
         <span class="hamburger__line"></span>
         <span class="hamburger__line"></span>
       </a>
-      <a href="/index.php" class="navigation__logo">Just Space</a>
+      <a href="/index.php" class="logo">Just <span class="logo__border">Space</span></a>
       <a href="/portfolio.php" class="navigation__section navigation__section--link">Портфолио</a>
     </nav>
   </header>
@@ -24,7 +24,7 @@
       </h1>
       <section class="about__text">
         <h2 class="about__subtitle">О Клиенте:</h2>
-        Институту прикладной математики и компьютерных наук тульского государственного университета потребовалось создать и продвинуть портал для обучающихся на курса повышения квалификации.
+        Институту прикладной математики и компьютерных наук тульского государственного университета потребовалось создать и продвинуть портал для обучающихся на курса повышения квалификации в ИТ и информационной безопасности.
       </section>
       <section class="about__text">
         <h2 class="about__subtitle">Результат:</h2>

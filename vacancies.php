@@ -11,7 +11,7 @@
         <span class="hamburger__line"></span>
         <span class="hamburger__line"></span>
       </a>
-      <a href="/index.php" class="navigation__logo">Just Space</a>
+      <a href="/index.php" class="logo">Just <span class="logo__border">Space</span></a>
       <span class="navigation__section">Вакансии</span>
     </nav>
   </header>
@@ -26,7 +26,7 @@
       </section>
       <section class="vacancies__line">
         <div class="vacancy">
-          <h2 class="vacancy__title">Front-End разработчик</h2>
+          <h2 class="vacancy__title">Back-End developer</h2>
           <div class="vacancy__description">
             <span>Мы предлагаем</span>
             <ul class="vacancy__list">
@@ -38,9 +38,9 @@
             <span>Наши требования</span>
             <ul class="vacancy__list">
               <li class="vacancy__list-element">- Git</li>
-              <li class="vacancy__list-element">- HTML/CSS/JavaScript</li>
-              <li class="vacancy__list-element">- Less/Sass</li>
-              <li class="vacancy__list-element">- Grunt/Gulp</li>
+              <li class="vacancy__list-element">- Базовые знания HTML/CSS/JavaScript</li>
+              <li class="vacancy__list-element">- PHP/MySQL</li>
+              <li class="vacancy__list-element">- Опыт работы с CMS (1С-Битрикс, Joomla, WordPress, ModX)</li>
             </ul>
           </div>
         </div>
@@ -62,7 +62,7 @@
           </div>
         </div>
         <div class="vacancy">
-          <h2 class="vacancy__title">SEO специалист</h2>
+          <h2 class="vacancy__title">Junior Android developer</h2>
           <div class="vacancy__description">
             <span>Мы предлагаем</span>
             <ul class="vacancy__list">
@@ -73,9 +73,9 @@
           <div class="vacancy__requirements">
             <span>Наши требования</span>
             <ul class="vacancy__list">
-              <li class="vacancy__list-element">- Базовые знания HTML</li>
-              <li class="vacancy__list-element">- Знание принципов аудита сайта</li>
-              <li class="vacancy__list-element">- Опыт работы с сервисами Google и Яндекс</li>
+              <li class="vacancy__list-element">- Базовые знания Java и Android SDK</li>
+              <li class="vacancy__list-element">- Умение работать с Git, Android Studio, Gradle</li>
+              <li class="vacancy__list-element">- Базовые знания основных алгоритмов и структур данных</li>
             </ul>
           </div>
         </div>
