@@ -11,7 +11,7 @@
         <span class="hamburger__line"></span>
         <span class="hamburger__line"></span>
       </a>
-      <a href="/index.php" class="navigation__logo">Just Space</a>
+      <a href="/index.php" class="logo">Just <span class="logo__border">Space</span></a>
       <span class="navigation__section">Услуги</span>
     </nav>
   </header>
@@ -29,7 +29,9 @@
         </svg>
         <h3 class="service__title">Мобильная разработка</h3>
         Разрабатываем нативные приложения под iOS и Android. Интегрируем мобильные приложения с сайтом.
-        <a href="/services/mobile_develop.php" class="service__button">Подробнее</a>
+        <div class="service__button-block">
+          <a href="/services/mobile_develop.php" class="service__button">Подробнее</a>
+          </div>
       </section>
       <section class="service">
         <svg class="service__svg" aria-hidden="true">
@@ -37,7 +39,10 @@
         </svg>
         <h3 class="service__title">Создание сайтов</h3>
         Специализируемся на создание сайтов на 1С-Битрикс, также создаем сайты используя другие популярные CMS.
-        <a href="/services/web_develop.php" class="service__button">Подробнее</a>
+        <div class="service__button-block">
+          <a href="/services/web_develop.php" class="service__button">Подробнее</a>
+          <a href="/docs/kp-razrabotka-saitov.pdf" target="_black" class="service__button">Скачать КП</a>
+        </div>
       </section>
       <section class="service">
         <svg class="service__svg" aria-hidden="true">
@@ -45,7 +50,10 @@
         </svg>
         <h3 class="service__title">Продвижение сайтов</h3>
         Комплексный аудит сайта, SEO оптимизация, копирайт и рерайт текстов, увеличение ссылочной массы.
-        <a href="/services/seo.php" class="service__button">Подробнее</a>
+        <div class="service__button-block">
+          <a href="/services/seo.php" class="service__button">Подробнее</a>
+          <a href="/docs/kp-prodvizhenie-saitov.pdf" target="_black" class="service__button">Скачать КП</a>
+        </div>
       </section>
     </article>
     <article class="services">
@@ -54,8 +62,10 @@
           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/sprites/sprites-services.svg#design"></use>
         </svg>
         <h3 class="service__title">Дизайн</h3>
-          Разрабатываем дизайн сайтов и мобильных приложений, редизайн и переосмысление существующих решений.
-        <a href="/services/design.php" class="service__button">Подробнее</a>
+        Разрабатываем дизайн сайтов и мобильных приложений, редизайн и переосмысление существующих решений.
+        <div class="service__button-block">
+          <a href="/services/design.php" class="service__button">Подробнее</a>
+        </div>
       </section>
       <section class="service">
         <svg class="service__svg" aria-hidden="true">
@@ -63,7 +73,9 @@
         </svg>
         <h3 class="service__title">Реклама</h3>
         Ведем рекламные кампании в Яндекс.Директ и Google AdWords, SMM в Instagram, Facebook и ВКонтакте.
-        <a href="/services/advertising.php" class="service__button">Подробнее</a>
+        <div class="service__button-block">
+          <a href="/services/advertising.php" class="service__button">Подробнее</a>
+        </div>
       </section>
     </article>
   </main>

@@ -11,7 +11,7 @@
         <span class="hamburger__line"></span>
         <span class="hamburger__line"></span>
       </a>
-      <a href="/index.php" class="navigation__logo">Just Space</a>
+      <a href="/index.php" class="logo">Just <span class="logo__border">Space</span></a>
       <span class="navigation__section">Контакты</span>
     </nav>
   </header>
@@ -20,7 +20,7 @@
   ?>
   <main class="main">
     <article class="contacts" itemscope itemtype="http://schema.org/Organization">
-      <h2 class="contacts__title">Digital-agency <span itemprop="name">Just Space</span></h2>
+      <h2 class="contacts__title logo">Digital agency <span itemprop="name">Just <span class="logo__border">Space</span></span></h2>
       <div class="contact">
         <h2>Телефон</h2>
         <a class="contact__link" href="tel:+79202762950" itemprop="telephone">+7 (920) 276-29-50</a>

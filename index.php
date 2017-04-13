@@ -61,7 +61,7 @@
         <span class="hamburger__line"></span>
         <span class="hamburger__line"></span>
       </a>
-      <a href="/index.php" class="navigation__logo">Just Space</a>
+      <a href="/index.php" class="logo">Just <span class="logo__border">Space</span></a>
     </nav>
     <div class="arrow">
       <svg class="arrow__icon" aria-hidden="true">
@@ -76,7 +76,7 @@
     <article class="about">
       <h1>Создание и продвижение сайтов в Туле</h1>
       <div class="about__text">
-          Наше агентство специализируется на создание сайтов, дальнейшей технической поддержкой и SEO продвижением уже разработанных сайтов. Создаем сайты под ключ используя большинство современных CMS - 1С-Битрикс, ModX, WordPress. Являемся сертифицированными разработчиками продуктов на основе 1С-Битрикс. Настраиваем контекстную рекламу в Яндекс.Директ и Google AdWords. Обладаем сертификатами Яндекса подтверждающими нашу компетенцию в работе с Директом и Метрикой. Также разрабатываем связанные с сайтом нативные мобильные приложения под iOS и Android.
+          Наше агентство специализируется на создании сайтов, дальнейшей технической поддержкой и SEO продвижением уже разработанных сайтов. Создаем сайты под ключ используя большинство современных CMS - 1С-Битрикс, ModX, WordPress. Являемся сертифицированными разработчиками продуктов на основе 1С-Битрикс. Настраиваем контекстную рекламу в Яндекс.Директ и Google AdWords. Обладаем сертификатами Яндекса подтверждающими нашу компетенцию в работе с Директом и Метрикой. Также разрабатываем связанные с сайтом нативные мобильные приложения под iOS и Android.
       </div>
       <div class="categories">
         <div class="categories__element categories__element--creative">
@@ -160,7 +160,7 @@
     <div class="page-image page-image--blog">
       <div class="page-image__wrapper">
         <article class="page-image__promo">
-          <h3 class="big">Блог <span class="fill-color--first">Just Space</span></h3>
+          <h3 class="big">Блог <span class="fill-color--first">Just <span class="logo__border">Space</span></span></h3>
           <div class="page-image__text">
             На страницах нашего блога мы выкладываем интересные на наш взгляд кейсы, стараясь рассказать о том, как мы создаем и продвигаем сайты наших клиентов, а также разрабатываем мобильные приложения. Раскрываем методики и секреты применяемые в продвижение сайтов.
           </div>
@@ -221,7 +221,7 @@
       </div>
     </div>
     <article class="order">
-      <form class="order__form" method="post">
+      <form class="order__form" enctype="multipart/form-data" method="post">
         <table class="order__table">
           <tr>
             <td colspan="2">
@@ -274,6 +274,8 @@
                     Прикрепить файл
                   </span>
                 </button>
+                <input type="hidden" name="MAX_FILE_SIZE" value="50000">
+                <span class="file__text" id="file__text"></span>
                 <input class="order__file" type="file" name="file__back" id="file__back">
                 <input class="order__button order__submit" type="submit" name="order_sub" id="order_sub" value="Заказать">
               </div>

@@ -10,7 +10,7 @@
         <span class="hamburger__line"></span>
         <span class="hamburger__line"></span>
       </a>
-      <a href="/index.php" class="navigation__logo">Just Space</a>
+      <a href="/index.php" class="logo">Just <span class="logo__border">Space</span></a>
       <a href="/portfolio.php" class="navigation__section navigation__section--link">Портфолио</a>
     </nav>
   </header>
