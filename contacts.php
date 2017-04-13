@@ -63,6 +63,20 @@
           </svg>
         </a>
       </div>
+      <div class="contact">
+        <h2>Наименование юр. лица</h2>
+        <span>
+          <span itemprop="legalName">ООО "ДЖАСТ СПЕЙС"</span>
+        </span>
+      </div>
+      <div class="contact">
+        <h2>ИНН/ОГРН</h2>
+        <span>
+          ИНН: <span itemprop="vatID">710402924696</span>
+          <br>
+          <span>ОГРН: 1177154008525</span>
+        </span>
+      </div>
     </article>
     <article class="order">
       <form class="order__form" method="post">
