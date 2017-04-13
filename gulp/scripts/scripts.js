@@ -27,13 +27,15 @@ document.addEventListener('DOMContentLoaded',function(){
   var arrowWrapperLeft  = document.querySelectorAll('.arrow__wrapper--left') || document.querySelector('head');
   var arrowRight        = document.querySelectorAll('.slider__arrow--right') || document.querySelector('head');
   var arrowWrapperRight = document.querySelectorAll('.arrow__wrapper--right') || document.querySelector('head');
+  var fileBack          = document.getElementById('file__back') || document.querySelector('head');
+  var fileText          = document.getElementById('file__text') || document.querySelector('head');
   var slidersDisplay    = 4;
   var click             = new Event("click");
 
 
-  header2div3.style.height      = winHeight/1.5 + 'px';
-  headerIndex.style.height      = winHeight + 'px';
-  appMenu.style.height          = "100%";
+  header2div3.style.height = winHeight/1.5 + 'px';
+  headerIndex.style.height = winHeight + 'px';
+  appMenu.style.height     = "100%";
   if(winWidth > 500){
     for(var i = 0; i < pageImage.length; i++){
       // if(hasClass(pageImage[i], "page-image--about")){
@@ -44,6 +46,11 @@ document.addEventListener('DOMContentLoaded',function(){
       // }
     }
   }
+
+  fileBack.onchange = function () {
+    var arPath = (this.value).split(/[\/\\]+/g);
+    fileText.innerHTML = arPath[arPath.length-1];
+  };
 
   if(winWidth > 800){
     sliderLineInitial(4);

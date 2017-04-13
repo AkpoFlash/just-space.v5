@@ -110,7 +110,7 @@
             </td>
             <td class="center-930px">
               <div class="buttons">
-                <button class="order__button order__button--file" type="button" id="file__front" >
+                <button class="order__button order__button--file" type="button" id="file__front">
                   <svg class="order__button-icon" aria-hidden="true">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/sprites/sprites.svg#metal-paper-clip"></use>
                   </svg>
@@ -118,6 +118,8 @@
                     Прикрепить файл
                   </span>
                 </button>
+                <input type="hidden" name="MAX_FILE_SIZE" value="50000">
+                <span class="file__text" id="file__text"></span>
                 <input class="order__file" type="file" name="file__back" id="file__back">
                 <input class="order__button order__submit" type="submit" name="order_sub" id="order_sub" value="Заказать">
               </div>
