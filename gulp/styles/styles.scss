@@ -54,6 +54,63 @@ input, textarea{
   -webkit-appearance: none;
 }
 
+
+input[type="range"]{
+  -webkit-appearance: none;
+  width: 100%;
+  background-color: transparent;
+}
+
+input[type="range"]:focus{
+  outline: none;
+}
+
+// Thumb's styles
+input[type="range"]::-webkit-slider-thumb{
+  -webkit-appearance: none;
+
+  border: 1px solid $firstColor;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background-color: $white;
+  cursor: pointer;
+  margin-top: -14px;
+}
+
+input[type=range]::-moz-range-thumb{
+  border: 1px solid $firstColor;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background-color: $white;
+  cursor: pointer;
+}
+
+input[type="range"]::-ms-track{
+  border: 1px solid $firstColor;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background-color: $white;
+  cursor: pointer;
+}
+
+
+// Track's styles
+
+input[type="range"]::-webkit-slider-runnable-track{
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  background-color: $firstColor;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track{
+  background-color: red;
+}
+
+
 ul{
   margin: 0;
   padding: 0;
@@ -76,6 +133,7 @@ hr{
     text-transform: uppercase;
     text-align: center;
     font-weight: 300;
+    letter-spacing: .1rem;
     padding: 20px 0;
     margin: 0;
     line-height: 2em;
@@ -83,7 +141,7 @@ hr{
 }
 
 .fill-color--first{
-  color: $firstColor;
+  color: $fourthColor;
 }
 
 .center{
@@ -106,6 +164,8 @@ hr{
 
 .image{
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 .image--site{
@@ -309,7 +369,7 @@ hr{
   font-size: 5em;
   line-height: 1.5em;
   color: $white;
-  @media(max-width: 500px){
+  @media(max-width: 550px){
     font-size: 2em;
     bottom: -14px;
   }
@@ -476,6 +536,11 @@ hr{
 .header--tcn{
   background-image: url('/img/clients/tcn/tcn_full.jpg');
   background-position: 50% 40%;
+}
+
+.header--tusman{
+  background-image: url('/img/clients/tusman/tusman_full.png');
+  background-position: 50% 50%;
 }
 
 .header--jqueryin2017{
@@ -701,29 +766,34 @@ hr{
   padding: 0;
   left: 0;
   top: 50px;
-  width: 200px;
+  width: 210px;
   background-color: $firstColor;
   height: 50px;
   z-index: 102;
 }
 
-.navigation__logo{
+.logo{
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-transform: uppercase;
   color: currentcolor;
-  float: left;
   display: block;
   height: 100%;
-  width: 150px;
-  font-size: 24px;
   text-decoration: none;
-  text-align: center;
   padding: 10px 0;
+}
+
+.logo__border{
+  letter-spacing: 2px;
+  border: 1px solid currentcolor;
+  padding: 2px 5px;
 }
 
 .navigation__section{
   color: currentcolor;
   background-color: $firstColor;
   position: fixed;
-  left: 200px;
+  left: 210px;
   top: 50px;
   height: 50px;
   font-size: 18px;
@@ -1328,6 +1398,11 @@ hr{
   display: none;
 }
 
+.file__text{
+  position: absolute;
+  top: 45px;
+}
+
 .order__button-icon{
   width: 20px;
   height: 20px;
@@ -1456,7 +1531,6 @@ hr{
 }
 
 .footer{
-  background-color: $thirdColor;
   color: $white;
   position: relative;
   @media(max-width: 500px){
@@ -1468,6 +1542,7 @@ hr{
 }
 
 .footer__contact{
+  background-color: $thirdColor;
   width: 100%;
   text-align: center;
 }
@@ -1575,7 +1650,7 @@ hr{
       transform: scale(1.05);
     }
   }
-  @media(max-width: 750px){
+  @media(max-width: 800px){
     width: 100%;
     max-width: 400px;
     &:not(:last-child){
@@ -1602,6 +1677,11 @@ hr{
   box-sizing: content-box;
 }
 
+.service__button-block{
+  display: block;
+  text-align: center;
+}
+
 .service__button{
   @include transition();
   border: 1px solid $firstColor;
@@ -1609,8 +1689,17 @@ hr{
   font-weight: 300;
   color: $white;
   text-decoration: none;
-  padding: 5px 40px;
+  padding: 5px 20px;
   margin-top: 20px;
+  display: inline-block;
+  @media(max-width: 1000px){
+    padding: 5px 10px;
+    font-size: 0.85rem;
+  }
+  @media(max-width: 800px){
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
 }
 
 
@@ -1962,7 +2051,72 @@ hr{
 }
 
 
-// SERVICES/MOBILE_DEVELOP.PHP
+// /SERVICES/
+
+.services-folder{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.services-folder__block{
+  max-width: 400px;
+  margin: 30px 0;
+  border: 3px solid $firstColor;
+  padding: 20px 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @media(max-width: 800px){
+    width: 100%;
+  }
+  @media(max-width: 400px){
+    width: 100%;
+  }
+}
+
+.services-folder__block--1{
+  color: $thirdColor;
+}
+
+.services-folder__block--2{
+  color: $fourthColor;
+}
+
+.services-folder__block--3{
+  color: $firstColor;
+}
+
+.services-folder__title{
+  color: currentcolor;
+}
+
+.services-folder__line{
+  width: 80%;
+  display: block;
+  position: relative;
+  height: 2px;
+  left: -10%;
+  top: -10px;
+}
+
+.services-folder__text{
+  color: $black;
+}
+
+.services-folder__days{
+  font-weight: 400;
+  color: $firstColor;
+}
+
+.services-folder__cost{
+  font-weight: 400;
+  color: $firstColor;
+}
+
+// SERVICES/
 
 .folder-services-content{
   width: 100%;
@@ -1970,7 +2124,7 @@ hr{
 
 .folder-services-content__block{
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .folder-services-content__block--1{
@@ -1995,7 +2149,7 @@ hr{
   display: block;
   position: relative;
   height: 2px;
-  left: -10%;
+  left: -40%;
   top: -10px;
 }
 

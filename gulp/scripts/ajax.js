@@ -18,15 +18,22 @@ document.addEventListener('DOMContentLoaded',function(){
     var tel     = document.querySelector('#tel').value;
     var email = document.querySelector('#email').value;
     var description = document.querySelector('#description').value;
+    var file    = document.querySelector('#file__back').files[0];
+
 
     if(fio != '' && tel != '' && email != '' && description != '') {
       e.preventDefault();
       var xhr = new XHR();
-      var parameters = 'fio=' + encodeURIComponent(fio) + '&' + 'tel=' + encodeURIComponent(tel) + '&' + 'email=' + encodeURIComponent(email) + '&' + 'description=' + encodeURIComponent(description);
+      var formData = new FormData();
+
+      formData.append('fio', fio);
+      formData.append('tel', tel);
+      formData.append('email', email);
+      formData.append('description', description);
+      formData.append('file', file);
 
       xhr.open('POST', '/includes/ajax/order.php', true);
-      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-      xhr.send(parameters);
+      xhr.send(formData);
 
       xhr.onreadystatechange = function(){
         if(xhr.readyState != 4) return;
@@ -57,11 +64,15 @@ document.addEventListener('DOMContentLoaded',function(){
     if(fio != '' && tel != '' && email != '' && description != '') {
       e.preventDefault();
       var xhr = new XHR();
-      var parameters = 'app-fio=' + encodeURIComponent(fio) + '&' + 'app-tel=' + encodeURIComponent(tel) + '&' + 'app-email=' + encodeURIComponent(email) + '&' + 'app-description=' + encodeURIComponent(description);
+      var formData = new FormData();
+
+      formData.append('app-fio', fio);
+      formData.append('app-tel', tel);
+      formData.append('app-email', email);
+      formData.append('app-description', description);
 
       xhr.open('POST', '/includes/ajax/app-order.php', true);
-      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-      xhr.send(parameters);
+      xhr.send(formData);
 
       xhr.onreadystatechange = function(){
         if(xhr.readyState != 4) return;
@@ -90,11 +101,13 @@ document.addEventListener('DOMContentLoaded',function(){
     if(email != '') {
       e.preventDefault();
       var xhr = new XHR();
-      var parameters = 'email=' + encodeURIComponent(email) + '&' + 'comment=' + encodeURIComponent(comment);
+      var formData = new FormData();
+
+      formData.append('email', email);
+      formData.append('comment', comment);
 
       xhr.open('POST', '/includes/ajax/unsubscribe.php', true);
-      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-      xhr.send(parameters);
+      xhr.send(formData);
 
       xhr.onreadystatechange = function(){
         if(xhr.readyState != 4) return;
@@ -123,11 +136,13 @@ document.addEventListener('DOMContentLoaded',function(){
     if(site != '') {
       e.preventDefault();
       var xhr = new XHR();
-      var parameters = 'site=' + encodeURIComponent(site) + '&' + 'email=' + encodeURIComponent(email);
+      var formData = new FormData();
+
+      formData.append('site', site);
+      formData.append('email', email);
 
       xhr.open('POST', '/includes/ajax/audit.php', true);
-      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-      xhr.send(parameters);
+      xhr.send(formData);
 
       xhr.onreadystatechange = function(){
         if(xhr.readyState != 4) return;
