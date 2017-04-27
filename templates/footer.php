@@ -58,7 +58,7 @@
     </tr>
   </table>
   <div class="footer__copyright">
-    Copyright &copy; 2013-<?php echo date("Y");?> <span itemprop="name">Just Space</span>
+    Copyright &copy; <?php echo date("Y");?> <span itemprop="name">Just Space</span>
   </div>
 </footer>
 <script src="/js/functions.min.js" defer></script>
