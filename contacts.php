@@ -78,7 +78,7 @@
         </span>
       </div>
     </article>
-    <article class="order">
+    <article class="order" id="checkout">
       <form class="order__form" method="post">
         <table class="order__table">
           <tr>

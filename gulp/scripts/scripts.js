@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded',function(){
   var sliderArrowRightIndex = document.querySelector('.slider__arrow--right-index') || document.querySelector('head');
   var appMenu           = document.querySelector(".app-menu") || document.querySelector('head');
   var blind             = document.querySelector(".blind") || document.querySelector('head');
+  var portfolioAddLink  = document.querySelector(".client_add_project") || document.querySelector('head');
   var allElem           = document.querySelectorAll('*') || document.querySelector('head');
   var arrowLeft         = document.querySelectorAll('.slider__arrow--left') || document.querySelector('head');
   var arrowWrapperLeft  = document.querySelectorAll('.arrow__wrapper--left') || document.querySelector('head');
@@ -79,6 +80,10 @@ document.addEventListener('DOMContentLoaded',function(){
   }
 
   blind.addEventListener('click', openCloseAppMenu);
+  portfolioAddLink.addEventListener('click', function(e){
+    e.preventDefault();
+    openCloseAppMenu();
+  });
 
   fileFront.addEventListener('click', function(){
     fileBack.click();
