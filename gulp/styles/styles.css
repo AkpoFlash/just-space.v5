@@ -1852,7 +1852,6 @@ h6 {
 .project_add__svg {
   fill: currentcolor;
   width: 50px;
-  position: absolute;
   top: -webkit-calc(50% - 50px);
   top: calc(50% - 50px); }
 
@@ -1898,6 +1897,8 @@ h6 {
   height: 100%;
   position: absolute;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 5;
   opacity: 0.5; }
 

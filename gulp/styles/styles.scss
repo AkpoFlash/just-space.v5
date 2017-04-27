@@ -1750,7 +1750,6 @@ hr{
 .project_add__svg{
   fill: currentcolor;
   width: 50px;
-  position: absolute;
   top: calc(50% - 50px);
 }
 
@@ -1797,6 +1796,8 @@ hr{
   height: 100%;
   position: absolute;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 5;
   opacity: $alphaForHeader;
 }
