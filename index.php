@@ -191,24 +191,65 @@
       <h3 class="clients__title big">Кейсы</h3>
       <div class="slider slider--line">
         <a href="/portfolio/domotoplenya.php" class="client client--1 slider__slide slider__slide--line">
+          <div class="client__categories">
+            <span class="client__category">Контекстная реклама</span>
+          </div>
         </a><!--
         --><a href="/portfolio/sportlifting.php" class="client client--2 slider__slide slider__slide--line">
+          <div class="client__categories">
+            <span class="client__category">Тех. поддержка</span>
+            <span class="client__category">Продвижение</span>
+          </div>
         </a><!--
         --><a href="/portfolio/volonter71.php" class="client client--3 slider__slide slider__slide--line">
+          <div class="client__categories">
+            <span class="client__category">Тех. поддержка</span>
+            <span class="client__category">Продвижение</span>
+          </div>
         </a><!--
         --><a href="/portfolio/tsu.php" class="client client--4 slider__slide slider__slide--line">
+          <div class="client__categories">
+            <span class="client__category">Создание под ключ</span>
+          </div>
         </a><!--
         --><a href="/portfolio/gazeltraffic.php" class="client client--5 slider__slide slider__slide--line">
+          <div class="client__categories">
+            <span class="client__category">Создание под ключ</span>
+          </div>
         </a><!--
         --><a href="/portfolio/tulskayakvartirka.php" class="client client--6 slider__slide slider__slide--line">
+          <div class="client__categories">
+            <span class="client__category">Создание под ключ</span>
+          </div>
         </a><!--
         --><a href="/portfolio/tcn.php" class="client client--7 slider__slide slider__slide--line">
+          <div class="client__categories">
+            <span class="client__category">Контекстная реклама</span>
+          </div>
         </a><!--
         --><a href="/portfolio/justspaceshoot.php" class="client client--8 slider__slide slider__slide--line">
+          <div class="client__categories">
+            <span class="client__category">Создание под ключ</span>
+          </div>
         </a><!--
-        --><a href="/portfolio/doly-tula.php" class="client client--9 slider__slide slider__slide--line">
+        --><a href="/portfolio/wunder.php" class="client client--9 slider__slide slider__slide--line">
+          <div class="client__categories">
+            <span class="client__category">Дизайн</span>
+          </div>
         </a><!--
-      --></div>
+        --><a href="/portfolio/doly-tula.php" class="client client--10 slider__slide slider__slide--line">
+          <div class="client__categories">
+            <span class="client__category">Создание под ключ</span>
+          </div>
+        </a><!--
+        --><a href="#checkout" class="client client--0 slider__slide slider__slide--line client_add_project">
+            <svg class="project_add__svg" aria-hidden="true">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/sprites/sprites.svg#add"></use>
+            </svg>
+            <span class="project_add__text">Здесь может быть ваш проект</span>
+          </a><!--
+          -->
+      </div>
       <div class="arrow__wrapper arrow__wrapper--left">
         <svg class="slider__arrow slider__arrow--left" aria-hidden="true">
           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/sprites/sprites.svg#down-arrow"></use>
@@ -220,7 +261,7 @@
         </svg>
       </div>
     </div>
-    <article class="order">
+    <article class="order" id="checkout">
       <form class="order__form" enctype="multipart/form-data" method="post">
         <table class="order__table">
           <tr>

@@ -28,29 +28,28 @@
         На этой странице вы можете ознакомиться с подробным описанием реальных кейсов встречаемых в нашей практике при создании сайтов и приложений для наших клиентов.
       </article>
       <section class="portfolio__line">
-        <a href="/portfolio/tusman.php" class="portfolio__project">
-          <img src="/img/clients/tusman/tusman_logo_white.png" class="portfolio__logo" alt="Логотип - SportLifting">
-          <div class="portfolio__mask portfolio__mask--6">
+        <a href="/portfolio/wunder.php" class="portfolio__project">
+          <img src="/img/clients/wunder/wunder_logo_white.png" class="portfolio__logo" alt="Логотип - wunder Moscow">
+          <div class="portfolio__mask portfolio__mask--1">
             <div class="portfolio__categories">
-              <span class="portfolio__category">Реклама</span>
               <span class="portfolio__category">Дизайн</span>
             </div>
           </div>
-          <img src="/img/clients/tusman/tusman_clip.jpg" class="portfolio__image" alt="Сайт - SportLifting">
+          <img src="/img/clients/wunder/wunder_clip.jpg" class="portfolio__image" alt="Флаер - wunder Moscow">
         </a>
         <a href="/portfolio/tsu.php" class="portfolio__project">
-          <img src="/img/clients/tsu/tsu_logo_white.png" class="portfolio__logo" alt="Логотип - Тульская квартирка">
-          <div class="portfolio__mask portfolio__mask--1">
+          <img src="/img/clients/tsu/tsu_logo_white.png" class="portfolio__logo" alt="Логотип - Тульский государственный университет">
+          <div class="portfolio__mask portfolio__mask--2">
             <div class="portfolio__categories">
-              <span class="portfolio__category">Тех. поддержка</span>
+              <span class="portfolio__category">Создание под ключ</span>
               <span class="portfolio__category">Продвижение</span>
             </div>
           </div>
           <img src="/img/clients/tsu/tsu_clip.jpg" class="portfolio__image" alt="Сайт - Тульский государственный университет">
         </a>
         <a href="/portfolio/volonter71.php" class="portfolio__project">
-          <img src="/img/clients/volonter71/volonter71_logo_white.png" class="portfolio__logo" alt="Логотип - Тульский Центр Недвижимости">
-          <div class="portfolio__mask portfolio__mask--2">
+          <img src="/img/clients/volonter71/volonter71_logo_white.png" class="portfolio__logo" alt="Логотип - Волонтер 71">
+          <div class="portfolio__mask portfolio__mask--3">
             <div class="portfolio__categories">
               <span class="portfolio__category">Тех. поддержка</span>
               <span class="portfolio__category">Продвижение</span>
@@ -60,7 +59,7 @@
         </a>
         <a href="/portfolio/tcn.php" class="portfolio__project">
           <img src="/img/clients/tcn/tcn_logo_white.png" class="portfolio__logo" alt="Логотип - Тульский Центр Недвижимости">
-          <div class="portfolio__mask portfolio__mask--3">
+          <div class="portfolio__mask portfolio__mask--4">
             <div class="portfolio__categories">
               <span class="portfolio__category">Контекстная реклама</span>
             </div>
@@ -69,7 +68,7 @@
         </a>
         <a href="/portfolio/domotoplenya.php" class="portfolio__project">
           <img src="/img/clients/cis/cis_logo_white.png" class="portfolio__logo" alt="Логотип - Центр Инженерных Систем">
-          <div class="portfolio__mask portfolio__mask--4">
+          <div class="portfolio__mask portfolio__mask--5">
             <div class="portfolio__categories">
               <span class="portfolio__category">Контекстная реклама</span>
             </div>
@@ -78,9 +77,9 @@
         </a>
         <a href="/portfolio/gazeltraffic.php" class="portfolio__project">
           <img src="/img/clients/gazel-traffic/gazel-traffic_logo_white.png" class="portfolio__logo" alt="Логотип - Gazel-Traffic">
-          <div class="portfolio__mask portfolio__mask--5">
+          <div class="portfolio__mask portfolio__mask--6">
             <div class="portfolio__categories">
-              <span class="portfolio__category">Разработка под ключ</span>
+              <span class="portfolio__category">Создание под ключ</span>
               <span class="portfolio__category">Тех. поддержка</span>
               <span class="portfolio__category">Продвижение</span>
               <span class="portfolio__category">Контекстная реклама</span>
@@ -90,7 +89,7 @@
         </a>
         <a href="/portfolio/sportlifting.php" class="portfolio__project">
           <img src="/img/clients/sportlifting/sportlifting_logo_white.png" class="portfolio__logo" alt="Логотип - SportLifting">
-          <div class="portfolio__mask portfolio__mask--6">
+          <div class="portfolio__mask portfolio__mask--7">
             <div class="portfolio__categories">
               <span class="portfolio__category">Тех. поддержка</span>
               <span class="portfolio__category">Продвижение</span>
@@ -100,9 +99,9 @@
         </a>
         <a href="/portfolio/justspaceshoot.php" class="portfolio__project">
           <img src="/img/clients/justspaceshoot/justspaceshoot_logo_white.png" class="portfolio__logo" alt="Логотип - Just Space Shoot">
-          <div class="portfolio__mask portfolio__mask--7">
+          <div class="portfolio__mask portfolio__mask--8">
             <div class="portfolio__categories">
-              <span class="portfolio__category">Разработка под ключ</span>
+              <span class="portfolio__category">Создание под ключ</span>
               <span class="portfolio__category">Тех. поддержка</span>
             </div>
           </div>
@@ -110,9 +109,9 @@
         </a>
         <a href="/portfolio/doly-tula.php" class="portfolio__project">
           <img src="/img/clients/doly-tula/doly-tula_logo_white.png" class="portfolio__logo" alt="Логотип - ТЦН">
-          <div class="portfolio__mask portfolio__mask--8">
+          <div class="portfolio__mask portfolio__mask--9">
             <div class="portfolio__categories">
-              <span class="portfolio__category">Разработка под ключ</span>
+              <span class="portfolio__category">Создание под ключ</span>
               <span class="portfolio__category">Тех. поддержка</span>
               <span class="portfolio__category">Продвижение</span>
             </div>
@@ -121,12 +120,20 @@
         </a>
         <a href="/portfolio/tulskayakvartirka.php" class="portfolio__project">
           <img src="/img/clients/tulskayakvartirka/tulskayakvartirka_logo_white.png" class="portfolio__logo" alt="Логотип - Тульская квартирка">
-          <div class="portfolio__mask portfolio__mask--9">
+          <div class="portfolio__mask portfolio__mask--10">
             <div class="portfolio__categories">
-              <span class="portfolio__category">Разработка под ключ</span>
+              <span class="portfolio__category">Создание под ключ</span>
             </div>
           </div>
           <img src="/img/clients/tulskayakvartirka/tulskayakvartirka_clip.jpg" class="portfolio__image" alt="Сайт - Тульская квартирка">
+        </a>
+        <a href="/contacts.php#checkout" class="portfolio__project portfolio_add client_add_project">
+          <div class="portfolio__mask portfolio__mask--0 project_add__content">
+            <svg class="project_add__svg project_add__svg--portfolio" aria-hidden="true">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/sprites/sprites.svg#add"></use>
+            </svg>
+            <span class="project_add__text project_add__text--portfolio">Здесь может быть ваш проект</span>
+          </div>
         </a>
       </section>
     </article>
