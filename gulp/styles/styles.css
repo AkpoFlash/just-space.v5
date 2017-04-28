@@ -1852,6 +1852,7 @@ h6 {
 .project_add__svg {
   fill: currentcolor;
   width: 50px;
+  position: absolute;
   top: -webkit-calc(50% - 50px);
   top: calc(50% - 50px); }
 
