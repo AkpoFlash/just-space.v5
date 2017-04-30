@@ -6,5 +6,5 @@ Disallow: /emails/
 Disallow: /includes/
 Disallow: /logs/
 Disallow: /templates/
-Host: www.just-space.ru
-Sitemap: http://www.just-space.ru/sitemap.xml
+Host: https://www.just-space.ru
+Sitemap: https://www.just-space.ru/sitemap.xml

@@ -5,112 +5,144 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>http://www.just-space.ru/</loc>
+  <loc>https://www.just-space.ru/</loc>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.just-space.ru/index.php</loc>
+  <loc>https://www.just-space.ru/index.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.just-space.ru/services.php</loc>
+  <loc>https://www.just-space.ru/services.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.just-space.ru/portfolio.php</loc>
+  <loc>https://www.just-space.ru/portfolio.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.just-space.ru/blog.php</loc>
+  <loc>https://www.just-space.ru/blog.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.just-space.ru/vacancies.php</loc>
+  <loc>https://www.just-space.ru/vacancies.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.just-space.ru/contacts.php</loc>
+  <loc>https://www.just-space.ru/contacts.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.just-space.ru/tools.php</loc>
+  <loc>https://www.just-space.ru/tools.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.just-space.ru/services/mobile_develop.php</loc>
+  <loc>https://www.just-space.ru/portfolio/domotoplenya.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.just-space.ru/portfolio/sportlifting.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.just-space.ru/portfolio/volonter71.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.just-space.ru/portfolio/tsu.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.just-space.ru/portfolio/gazeltraffic.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.just-space.ru/portfolio/tulskayakvartirka.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.just-space.ru/portfolio/tcn.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.just-space.ru/portfolio/justspaceshoot.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.just-space.ru/portfolio/wunder.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.just-space.ru/portfolio/doly-tula.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.just-space.ru/services/mobile_develop.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.just-space.ru/services/web_develop.php</loc>
+  <loc>https://www.just-space.ru/services/web_develop.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.just-space.ru/services/seo.php</loc>
+  <loc>https://www.just-space.ru/docs/kp-razrabotka-saitov.pdf</loc>
+  <lastmod>2017-04-11T21:00:42+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.just-space.ru/services/design.php</loc>
+  <loc>https://www.just-space.ru/services/seo.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.just-space.ru/services/advertising.php</loc>
+  <loc>https://www.just-space.ru/docs/kp-prodvizhenie-saitov.pdf</loc>
+  <lastmod>2017-04-11T21:00:52+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.just-space.ru/portfolio/domotoplenya.php</loc>
+  <loc>https://www.just-space.ru/services/design.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.just-space.ru/portfolio/gazeltraffic.php</loc>
+  <loc>https://www.just-space.ru/services/advertising.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.just-space.ru/portfolio/sportlifting.php</loc>
+  <loc>https://www.just-space.ru/blog/vnutrennyaya-optimizaciya.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.just-space.ru/portfolio/justspaceshoot.php</loc>
+  <loc>https://www.just-space.ru/blog/spritekit.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.just-space.ru/portfolio/doly-tula.php</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.just-space.ru/portfolio/tulskayakvartirka.php</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.just-space.ru/blog/spritekit.php</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.just-space.ru/blog/jqueryin2017.php</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.just-space.ru/blog/vnutrennyaya-optimizaciya.php</loc>
+  <loc>https://www.just-space.ru/blog/jqueryin2017.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
