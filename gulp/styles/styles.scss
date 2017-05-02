@@ -83,6 +83,10 @@ hr{
   }
 }
 
+.bug{
+  color: red !important;
+}
+
 .fill-color--first{
   color: $fourthColor;
 }
@@ -2107,6 +2111,10 @@ hr{
   flex-wrap: wrap;
 }
 
+.table-wrapper{
+  overflow-x: auto;
+}
+
 .main-services-table{
   border-collapse: collapse;
   text-align: center;
@@ -2117,12 +2125,25 @@ hr{
       &:nth-child(1){
         font-weight: 300;
       }
+      @media(max-width: 850px){
+        padding: 0 5px;
+      }
     }
     &:nth-child(1){
       background-color: $firstColor;
       color: $white;
       font-weight: 300;
       text-transform: uppercase;
+    }
+    @media(max-width: 910px){
+      font-size: .9rem;
+    }
+    @media(max-width: 730px){
+      font-size: .8rem;
+    }
+    @media(max-width: 665px){
+      padding: 0;
+      font-size: .7rem;
     }
   }
 }
