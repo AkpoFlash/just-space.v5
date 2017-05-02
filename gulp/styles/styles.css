@@ -186,6 +186,9 @@ h6 {
   margin: 0;
   line-height: 2em; }
 
+.bug {
+  color: red !important; }
+
 .fill-color--first {
   color: #dd748a; }
 
@@ -2169,6 +2172,9 @@ h6 {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
 
+.table-wrapper {
+  overflow-x: auto; }
+
 .main-services-table {
   border-collapse: collapse;
   text-align: center; }
@@ -2177,11 +2183,24 @@ h6 {
     padding: 10px 15px; }
     .main-services-table tr td:nth-child(1) {
       font-weight: 300; }
+    @media (max-width: 850px) {
+      .main-services-table tr td {
+        padding: 0 5px; } }
   .main-services-table tr:nth-child(1) {
     background-color: #0097ba;
     color: #fff;
     font-weight: 300;
     text-transform: uppercase; }
+  @media (max-width: 910px) {
+    .main-services-table tr {
+      font-size: .9rem; } }
+  @media (max-width: 730px) {
+    .main-services-table tr {
+      font-size: .8rem; } }
+  @media (max-width: 665px) {
+    .main-services-table tr {
+      padding: 0;
+      font-size: .7rem; } }
 
 .main-services-block {
   max-width: 400px;
