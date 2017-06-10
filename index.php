@@ -187,7 +187,7 @@
         Создание сайта обеспечивает охват широкой аудитории интернет пользователей, это позволяет привлечь новых клиентов, которые раньше не могли узнать о ваших услугах в других источниках. При правильном проведении SEO продвижения сайта вы получите дополнительный источник постоянных клиентов. Также если вы хотите улучшить репутацию своей организации, то собственный сайт - удобная стартовая площадка для этого, а в совокупности с проведением SMM кампании в социальных сетях (Facebook, Instagram, Вконтакте) вы достигните значительных изменений в короткий срок.
       </div>
     </article>
-    <div class="clients carusel carusel--line">
+    <div class="clients carusel carusel--line" onmousedown="return false" onselectstart="return false">
       <h3 class="clients__title big">Кейсы</h3>
       <div class="slider slider--line">
         <a href="/portfolio/domotoplenya.php" class="client client--1 slider__slide slider__slide--line">
