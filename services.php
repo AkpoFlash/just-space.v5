@@ -38,7 +38,7 @@
           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/sprites/sprites-services.svg#web"></use>
         </svg>
         <h3 class="service__title">Создание сайтов</h3>
-        Специализируемся на создание сайтов на 1С-Битрикс, также создаем сайты используя другие популярные CMS.
+        Специализируемся на создании сайтов на 1С-Битрикс, также создаем сайты используя другие популярные CMS.
         <div class="service__button-block">
           <a href="/services/web_develop.php" class="service__button">Подробнее</a>
           <a href="/docs/kp-razrabotka-saitov.pdf" target="_black" class="service__button">Скачать КП</a>
